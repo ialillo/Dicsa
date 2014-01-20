@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dicsa.master.cs" Inherits="Dicsa.Dicsa" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicsa, Controles, Mecatronica, Robotica, Mexico, Robotica Mexico, Mecatronica Mexico">
+    <meta name="author" content="Isai Alillo Flores, Dicsa">
+    <title>DICSA | Diseño e Integracion de Controles S.A. de C.V.</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:500' rel='stylesheet' type='text/css'>
+    <%--<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>--%>
+    
+    <link href="CSS/Bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/Dicsa.css" rel="stylesheet" type="text/css" />
+
+    <script src="JavaScript/JQuery/jquery.min.js" type="text/javascript"></script>
+    <script src="JavaScript/Bootstrap/bootstrap.min.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="MainPlaceHolderHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="topNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="navbar-top-beautify"></div>
+                <div class="navbar-top-social">
+                    <div class="container">
+                        <img src="Images/Icons/Social/Facebook1.png" alt="Facebook" style="cursor:pointer;" />
+                        <img src="Images/Icons/Social/Twitter.png" alt="Twitter" style="cursor:pointer;" />
+                        <img src="Images/Icons/Social/LinkedIn.png" alt="Linked In" style="cursor:pointer;" />
+                        <img src="Images/Icons/Social/Youtube1.png" alt="Youtube" style="cursor:pointer;" />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="navbar-header">
+                        <img src="Images/Home/DicsaHomeLogo9.jpg"/>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Empresa</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Dise&ntilde;o mec&aacute;nico</a></li>
+                                    <li><a href="#">Dise&ntilde;o de controles</a></li>
+                                    <li><a href="#">Dise&ntilde;o y programaci&oacute;n de controles el&eacute;ctricos y PLC</a></li>
+                                    <li><a href="#">Manuales de mantenimiento y operaci&oacute;n</a></li>
+                                    <li><a href="#">Programaci&oacute;n de robots-PLC's</a></li>
+                                    <li><a href="#">Programaci&oacute;n de robots</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Clientes</a></li>
+                            <li><a href="#">Equipos</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <h4><label class="destaca">Acerca</label> de DICSA</h4>
+                        <p>Somos una empresa creada con la finalidad de contribuir con el desarrollo de tecnología de punta en nuestro país. Nuestro propósito es satisfacer las espectativas y exigencias de nuestros clientes, 
+                            contando siempre con los mejores estándares de calidad, servicio y precio. <a>Seguir leyendo</a></p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <h4><label class="destaca">Tweets</label> de DICSA</h4>
+                        <a class="twitter-timeline" href="https://twitter.com/VeXTuPaC" data-widget-id="425110184092893186">Tweets by @VeXTuPaC</a>
+                        <script>
+                            !function (d, s, id)
+                            {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+
+                                if (!d.getElementById(id))
+                                {
+                                    js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                        </script>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <h4><label class="destaca">Contacto</label> DICSA</h4>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="final">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 centered">
+                            <a>Privacidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a>Derechos ARCO</a>
+                        </div>
+                        <div class="col-xs-6 centered">
+                            <p class="pull-right">&copy; 2013 Dise&ntilde;o e Integraci&oacute;n de Controles S.A. de C.V. &reg; All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

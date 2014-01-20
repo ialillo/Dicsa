@@ -1,0 +1,69 @@
+﻿html, body {
+  height: 100%;
+  /*font-family: 'Didact Gothic', sans-serif;*/
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+#topNav {
+    -webkit-box-shadow: 0 10px 10px -10px #717476;
+    -moz-box-shadow: 0 10px 10px -10px #717476;
+    box-shadow: 0 10px 10px -10px #717476;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    -webkit-box-shadow: 0 -15px 15px -15px #717476;
+    -moz-box-shadow: 0 -15px 15px -15px #717476;
+    box-shadow: 0 -15px 15px -15px #717476;
+}
+
+#final {
+    width:100%;
+    height:25px;
+    background-color: #3a3f43;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#final a {
+	color:white;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+#final a:hover {
+	color:#1baacc;
+	text-decoration: none;
+}
+
+#final a:visited {
+	color:white;
+	text-decoration: none;
+}
+
+.navbar-top-beautify {
+    height:4px;
+    background-color:#1baacc;
+}
+
+.navbar-top-social {
+    height:25px;
+    background-color:#3a3f43;
+}
+
+.contentpage-top-margin {
+    margin-top: 80px;
+}
+
+.navbar-top-gallery {
+    background-color:#1baacc;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.destaca {
+    color:#1baacc;
+}
