@@ -12,7 +12,8 @@
     <meta name="author" content="Isai Alillo Flores, Dicsa">
     <title>DICSA | Diseño e Integracion de Controles S.A. de C.V.</title>
     
-    <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:500' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="CSS/Font-Awesome/css/font-awesome.min.css" />
     <%--<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>--%>
     
     <link href="CSS/Bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -94,7 +95,7 @@
                     </div>
                     <div class="col-6 col-sm-6 col-lg-4">
                         <h4><label class="destaca">Contacto</label> DICSA</h4>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                        <i class="fa fa-envelope"></i> info@dicsa.com
                     </div>
                 </div>
             </div>

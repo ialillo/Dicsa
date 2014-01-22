@@ -60,6 +60,9 @@
     <Content Include="CSS\Bootstrap\bootstrap-theme.min.css" />
     <Content Include="CSS\Bootstrap\bootstrap.min.css" />
     <Content Include="CSS\Dicsa.css" />
+    <Content Include="CSS\Font-Awesome\css\font-awesome.css" />
+    <Content Include="CSS\Font-Awesome\css\font-awesome.min.css" />
+    <Content Include="CSS\Font-Awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Images\Home\DicsaHomeLogo9.jpg" />
     <Content Include="Images\Home\ImageGallery\1.png" />
     <Content Include="Images\Home\ImageGallery\2.png" />
@@ -97,6 +100,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dicsa.Master" />
+    <Content Include="CSS\Font-Awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="CSS\Font-Awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="CSS\Font-Awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="CSS\Font-Awesome\fonts\FontAwesome.otf" />
+    <Content Include="CSS\Font-Awesome\less\bordered-pulled.less" />
+    <Content Include="CSS\Font-Awesome\less\core.less" />
+    <Content Include="CSS\Font-Awesome\less\fixed-width.less" />
+    <Content Include="CSS\Font-Awesome\less\font-awesome.less" />
+    <Content Include="CSS\Font-Awesome\less\icons.less" />
+    <Content Include="CSS\Font-Awesome\less\larger.less" />
+    <Content Include="CSS\Font-Awesome\less\list.less" />
+    <Content Include="CSS\Font-Awesome\less\mixins.less" />
+    <Content Include="CSS\Font-Awesome\less\path.less" />
+    <Content Include="CSS\Font-Awesome\less\rotated-flipped.less" />
+    <Content Include="CSS\Font-Awesome\less\spinning.less" />
+    <Content Include="CSS\Font-Awesome\less\stacked.less" />
+    <Content Include="CSS\Font-Awesome\less\variables.less" />
+    <Content Include="CSS\Font-Awesome\scss\font-awesome.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_bordered-pulled.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_core.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_fixed-width.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_icons.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_larger.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_list.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_mixins.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_path.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_rotated-flipped.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_spinning.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_stacked.scss" />
+    <Content Include="CSS\Font-Awesome\scss\_variables.scss" />
     <None Include="Properties\PublishProfiles\Dicsa.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
