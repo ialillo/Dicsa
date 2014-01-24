@@ -12,8 +12,8 @@
     <div class="navbar-top-gallery contentpage-top-margin">
         <div class="container">
                 <div id="divSlideShow" class="centered">
-                    <img src="Images/Home/ImageGallery/1.png" alt="Diseno e Integracion de Controles SA de CV" />
-                    <img src="Images/Home/ImageGallery/2.png" alt="PLC" />
+                    <img src="Images/Home/ImageGallery/1.png" alt="Diseno e Integracion de Controles SA de CV" class="img-responsive" />
+                    <img src="Images/Home/ImageGallery/2.png" alt="PLC" class="img-responsive" />
                 </div>
         </div>
     </div>

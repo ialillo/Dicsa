@@ -41,6 +41,12 @@
                 <div class="container">
                     <div class="navbar-header">
                         <img src="Images/Home/DicsaHomeLogo9.jpg"/>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -68,46 +74,44 @@
             </div>
 
             <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server"></asp:ContentPlaceHolder>
-        </div>
 
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <h4><label class="destaca">Acerca</label> de DICSA</h4>
-                        <p>Somos una empresa creada con la finalidad de contribuir con el desarrollo de tecnología de punta en nuestro país. Nuestro propósito es satisfacer las espectativas y exigencias de nuestros clientes, 
-                            contando siempre con los mejores estándares de calidad, servicio y precio. <a>Seguir leyendo</a></p>
-                    </div>
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <h4><label class="destaca">Tweets</label> de DICSA</h4>
-                        <a class="twitter-timeline" href="https://twitter.com/VeXTuPaC" data-widget-id="425110184092893186">Tweets by @VeXTuPaC</a>
-                        <script>
-                            !function (d, s, id)
-                            {
-                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-
-                                if (!d.getElementById(id))
-                                {
-                                    js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, "script", "twitter-wjs");
-                        </script>
-                    </div>
-                    <div class="col-6 col-sm-6 col-lg-4">
-                        <h4><label class="destaca">Contacto</label> DICSA</h4>
-                        <i class="fa fa-envelope"></i> info@dicsa.com
-                    </div>
-                </div>
-            </div>
-            <div id="final">
+            <div id="footer" class="navbar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-6 centered">
-                            <a>Privacidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a>Derechos ARCO</a>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <h4><label class="destaca">Acerca</label> de DICSA</h4>
+                            <p>Somos una empresa creada con la finalidad de contribuir con el desarrollo de tecnología de punta en nuestro país. Nuestro propósito es satisfacer las espectativas y exigencias de nuestros clientes, 
+                                contando siempre con los mejores estándares de calidad, servicio y precio. <a>Seguir leyendo</a></p>
                         </div>
-                        <div class="col-xs-6 centered">
-                            <p class="pull-right">&copy; 2013 Dise&ntilde;o e Integraci&oacute;n de Controles S.A. de C.V. &reg; All rights reserved</p>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <h4><label class="destaca">Tweets</label> de DICSA</h4>
+                            <a class="twitter-timeline" href="https://twitter.com/VeXTuPaC" data-widget-id="425110184092893186">Tweets by @VeXTuPaC</a>
+                            <script>
+                                !function (d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+
+                                    if (!d.getElementById(id)) {
+                                        js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+                                    }
+                                }(document, "script", "twitter-wjs");
+                            </script>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4">
+                            <h4><label class="destaca">Contacto</label> DICSA</h4>
+                            <i class="fa fa-envelope"></i> info@dicsa.com
+                        </div>
+                    </div>
+                </div>
+                <div id="final">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 centered">
+                                <a>Privacidad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a>Derechos ARCO</a>
+                            </div>
+                            <div class="col-xs-6 centered">
+                                <p class="pull-right">&copy; 2013 Dise&ntilde;o e Integraci&oacute;n de Controles S.A. de C.V. &reg; All rights reserved</p>
+                            </div>
                         </div>
                     </div>
                 </div>
